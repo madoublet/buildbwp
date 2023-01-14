@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles */
+.bwp-shape {
+    background: url(../assets/bwp-shape.svg) no-repeat 0 center;
+    background-size: 100%;
+}
+
+.bwp-rocket-shape {
+    background: url(../assets/bwp-rocket-shape.svg) no-repeat 0 center;
+    background-size: 100%;
+}
+
+.bwp-divider::after {
+    position: absolute;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 15px;
+    background-color: #1A98FE;
+    border-radius: 10px;
+    content: "";
+    padding: 0;
+    margin-top: 20px;
+    display: block;
+}
