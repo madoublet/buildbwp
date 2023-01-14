@@ -850,6 +850,18 @@ video {
   max-width: 150px;
 }
 
+.max-w-\[170px\] {
+  max-width: 170px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[190px\] {
+  max-width: 190px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
